@@ -146,3 +146,36 @@ body{
 .reviewer-date{
     color: #aaa9b6;
 }
+/* form */
+.sectionm4{
+    display: flex;
+    margin: 0px 159px 137px 141px;
+    align-items: center;
+    gap: 115px;
+}
+.sectionm4 form input,label,textarea{
+    display: block;
+}
+.sectionm4 .form-title{
+    font-size: 97px;
+    font-weight: bold;
+    width:50%;
+}
+.sectionm4 .form{
+    width:50%;
+}
+.sectionm4 form label{
+    font-size: 18px;
+}
+.sectionm4 form input,textarea{
+    width:100%;
+    padding:20px 32px;
+    border-radius: 10px;
+    border-style: none;
+}
+.btn-form{
+    width: 108%;
+}
+.sectionm4 label,input,textarea,button{
+    margin: 5px;
+}
