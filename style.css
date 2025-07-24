@@ -117,7 +117,7 @@ body{
 }
 .sectionm3 .rating-cards{
     display: flex;
-    justify-content: space-around;
+    gap: 32px;
 }
 .sectionm3 .rating-cards .card{
     background-color: white;
@@ -149,15 +149,15 @@ body{
 /* form */
 .sectionm4{
     display: flex;
-    margin: 0px 159px 137px 141px;
+    margin: 0px 159px 60px 141px;
     align-items: center;
-    gap: 115px;
+    gap: 60px;
 }
 .sectionm4 form input,label,textarea{
     display: block;
 }
 .sectionm4 .form-title{
-    font-size: 97px;
+    font-size: 67px;
     font-weight: bold;
     width:50%;
 }
@@ -169,13 +169,33 @@ body{
 }
 .sectionm4 form input,textarea{
     width:100%;
-    padding:20px 32px;
+    padding:20px 22px;
     border-radius: 10px;
     border-style: none;
+    box-sizing: border-box;
 }
 .btn-form{
-    width: 108%;
+    width: 100%;
 }
 .sectionm4 label,input,textarea,button{
     margin: 5px;
+}
+.footer{
+    text-align: center;
+    background-color: white;
+    padding: 60px 500px;
+}
+.footer .foot-logo h1{
+    color: #4E47FF;
+    font-weight: 900;
+    font-size: 100px;
+    margin:0px;
+}
+.footer .foot-link a{
+    margin:20px;
+    text-decoration: none;
+    color: #8987a1;
+}
+.footer p{
+    color: #8987a1;
 }
