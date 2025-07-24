@@ -25,6 +25,10 @@ body{
     border-radius: 10px;
     border: none;
 }
+.btn-primary:hover{
+    background-color: rgb(147, 59, 124);
+    cursor: pointer;
+}
 /* header styles */
 .header{
     background-image: url(Assets/Hero-bg.png);
